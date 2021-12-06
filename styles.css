@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.app {
+    background-color: #1B1D28;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__card {
+    max-width: 700px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #222533;
+    border-radius: 5px;
+    min-height: 300px;
+    width: 100%;
+    padding: 50px;
+}
+
+.app__card__content h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
+.app__card__content address {
+    font-family: 'Playfair Display', serif;
+    padding: 20px 0px;
+    font-size: 14px;
+    text-align: end;
+}
+
+.app__card__next {
+    display: block;
+    max-width: 180px;
+    background-color: #7132C1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.next:hover {
+    background-color: #8D3FF2;
+}
